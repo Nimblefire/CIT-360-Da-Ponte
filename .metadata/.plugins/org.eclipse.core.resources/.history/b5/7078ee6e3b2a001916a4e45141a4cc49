@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Home Page</title>
+</head>
+<body>
+	<header>
+		<h1>Welcome to our members only area</h1>
+		<div class="sign-up-invite">If you haven't sign up yet got to this link <a href="signup-page.html">sign-up</a></div>
+	</header>
+	<form method="post" action="src/servlets/LoginServlet">
+		<p>User Name <input type="text" id="user"></p>
+		<p>Password <input type="password" id="password"></p>
+		<input type="submit" value="login">
+		
+	</form>
+</body>
+</html>
