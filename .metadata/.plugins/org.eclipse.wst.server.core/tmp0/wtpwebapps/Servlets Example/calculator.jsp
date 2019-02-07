@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE html>
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
@@ -10,9 +10,9 @@
 	<p>
 		Please insert two numbers and select the operation 
 		<input type="text" name="input1">
-		<input type="text" name="input2"> 
-		<div class="output"><%	%></div>
-	</p>
+		<input type="text" name="input2">
+	</p> 
+	<div class="output"><%	%></div>
 	<form  method="post" action="Add">
 		<table>
 			<tr>

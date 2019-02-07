@@ -7,11 +7,11 @@
 <title>Home Page</title>
 </head>
 <body>
-	<nav style="display:in-line block; text-align:center" >
-	<ul style="list-style-type: none;">
-       <li><a href="login.jsp">Member's Area</a></li>
-       <li><a href="calculator.jsp">Calculator</a></li>
-   	</ul>
+	<nav style="display:inline; text-align:center" >
+		<ul style="list-style-type: none;">
+	       <li><a href="login.jsp">Member's Area</a></li>
+	       <li><a href="calculator.jsp">Calculator</a></li>
+	   	</ul>
 	</nav>
 </body>
 </html>
